@@ -12,7 +12,7 @@ class Base(models.Model):
         abstract = True
 
 
-class Courses(Base):
+class Course(Base):
     title = models.CharField(max_length=255)
     url = models.URLField(unique=True)
 
